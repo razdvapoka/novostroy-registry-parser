@@ -1,0 +1,29 @@
+{
+  "name": "novostroy-registry-parser",
+  "version": "0.0.1",
+  "description": "novostroy registry parser",
+  "main": "./src/run.js",
+  "scripts": {
+    "lint": "eslint src",
+    "start": "node .scripts/start.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razdvapoka/novostroy-registry-parser.git"
+  },
+  "author": "razdvapoka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/razdvapoka/novostroy-registry-parser/issues"
+  },
+  "homepage": "https://github.com/razdvapoka/novostroy-registry-parser#readme",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "6.19.0",
+    "babel-polyfill": "6.16.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-register": "6.18.0",
+    "eslint": "2.2.0",
+    "eslint-config-babo": "0.1.2"
+  }
+}

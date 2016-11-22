@@ -1,0 +1,10 @@
+{
+  "extends": "babo",
+  "env": {
+    "node": true
+  },
+  "plugins": [],
+  "rules": {
+    "no-console": 0
+  }
+}
